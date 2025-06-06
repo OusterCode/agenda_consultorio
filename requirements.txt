@@ -1,4 +1,4 @@
-Django>=5.2.2
+Django
 mysqlclient
 python-dotenv
 django-bootstrap-v5
