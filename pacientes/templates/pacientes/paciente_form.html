@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+{% block content %}
+<h1 class="mb-4">Cadastrar Paciente</h1>
+<form method="post" class="mb-3">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a class="btn btn-secondary" href="{% url 'paciente_list' %}">Voltar</a>
+</form>
+{% endblock %}

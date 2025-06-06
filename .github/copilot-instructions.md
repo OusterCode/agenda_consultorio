@@ -1,0 +1,2 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+Este projeto é um sistema Django para gerenciamento de pacientes e consultas em um consultório de psicologia, com integração MySQL. Possui cadastro de pacientes, registro de consultas e relatório mensal de consultas.
